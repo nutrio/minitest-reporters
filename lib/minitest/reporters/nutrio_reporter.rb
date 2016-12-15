@@ -22,7 +22,7 @@ module Minitest
         [
           hours >= 1 ? ("%.0dh" % hours) : nil,
           mins  >= 1 ? ("%.0dm" % mins) : nil,
-          "%.2fs" % secs
+          "%.0fs" % secs
         ].join(' ').strip
       end
     end
